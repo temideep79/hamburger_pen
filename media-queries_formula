@@ -1,0 +1,23 @@
+/* min-width will take effect (eg600px- 1200px- infinity) to the highest screen-size///-effect will be applied from 600px upwards  */
+@media (min-width: 600px) {
+  p {
+    font-size: 5rem;
+    background-color: blueviolet;
+  }
+  .brn{
+    background-color: yellow;
+  }
+  
+}
+
+
+/* max-width will take effect at its maximum width(eg 600px-100px-0 ) to the lowest screen-size-effect will be applied from 600px downwards  */
+/* @media (max-width: 600px) {
+  p {
+    font-size: 2rem;
+    background-color: green;
+  }
+  .brn{
+    background-color: yellow;
+  }
+}  */
